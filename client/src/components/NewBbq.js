@@ -8,7 +8,8 @@ const NewBbq = (props) => {
 
     const [name, setName] = useState('');
     const [photo, setPhoto] = useState('');
-    const [recipe, setRecipe] = useState('');
+    const [recipe, setRecipe] = useState('[]');
+    // const [ingredient, setIngredient] = useState('');
 
     const [errors, setErrors] = useState('');
     const navigate = useNavigate();
